@@ -28,7 +28,7 @@
 			</object> -->
 			<div class="info-container" id="o-que-esperar">
 				<img src="./images/lightcircle.png" alt="">
-				<div class="content-block">				
+				<div class="content-block">
 					<div class="info-title">
 						<h2>O que esperar do 3 TPR?</h2>
 					</div>
@@ -39,7 +39,7 @@
 			</div>
 			<div class="info-container" id="vamos-la">
 				<img src="./images/lightcircleblue.png" alt="">
-				<div class="content-block small">				
+				<div class="content-block small">
 					<div class="info-title large">
 						<h2>Vamos lá</h2>
 					</div>
@@ -50,7 +50,7 @@
 			</div>
 			<div class="info-container" id="cuidado">
 				<img src="./images/cuidado.png" alt="">
-				<div class="content-block without-bg">				
+				<div class="content-block without-bg">
 					<h2 class="title">Cuidado</h2>
 					<p class="content"><span>Gap: </span>os gaps são descontinuidades onde o robô não consegue distinguir a trilha.</p>
 				</div>
@@ -72,7 +72,7 @@
 			<div class="info-container" id="mas-antes">
 				<img src="./images/lightcirclesmall.png" alt="">
 				<div class="content-block small">
-					
+
 					<div class="info-title large">
 						<h2>Mas antes</h2>
 					</div>
@@ -82,10 +82,10 @@
 			<div class="info-container show-content" id="final-resgate">
 				<img src="./images/engrenagem.png" alt="">
 				<div class="content-block front">
-					
+
 					<h2 class="text-center">O Grande Resgate</h2>
 					<p class="text-center">Área segura onde cada vítima deve ser alocada.</p>
-					
+
 					<button type="button" class="btn btn-tpr" data-toggle="modal" data-target="#mentormodal">
 						Clique aqui
 					</button>
@@ -106,7 +106,7 @@
 										<span>Marcelo Tas</span>
 									</h2>
 									<p>Diretor, jornalista, apresentador de televisão, escritor, ator e roteirista brasileiro</p>
-								</div>	
+								</div>
 							</div>
 						</div>
 					</div>
@@ -149,7 +149,7 @@
 					<a role="button" class="video-play" id="play-video">
 						<img src="./images/video.png" alt="" class="play">
 					</a>
-				</div>			
+				</div>
 			</div>
 		</section>
 		<section class="ranking">
@@ -276,7 +276,7 @@
 					<div class="swiper-slide"><img src="./images/galeria/39.jpg" alt=""></div>
 					<div class="swiper-slide"><img src="./images/galeria/40.jpg" alt=""></div>
 					<div class="swiper-slide"><img src="./images/galeria/41.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/42.jpg" alt=""></div>	
+					<div class="swiper-slide"><img src="./images/galeria/42.jpg" alt=""></div>
 				</div>
 				<img src="./images/arrow-left.png" alt="" class="btn-slider btn-prev">
 				<img src="./images/arrow-right.png" alt="" class="btn-slider btn-next">
@@ -329,7 +329,7 @@
 					prevEl: '.btn-prev-rank',
 				},
 			});
-			
+
 			$('#play-video').on('click', function(){
 				$('#video-section .video').css('opacity', '1');
 				var src = $('#video-section .video iframe').attr('src');
@@ -394,7 +394,7 @@
 				},
 			});
 			var fotos
-		    $.post("http://eaglexweb.com.br/clientes/viamaker/instagram.php", function(data, status){
+		    $.post("http://torneiopaulistaderobotica.com/instagram.php", function(data, status){
 		        if(status == 'success'){
 		        	fotos = JSON.parse(data);
 		        	for(i=0; i<fotos.length;i++){
@@ -440,5 +440,5 @@
 		});
 
 	</script>
-</body>	
+</body>
 </html>
