@@ -1,0 +1,21 @@
+.services__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+.service__icon{
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 112px;
+  padding: 25px;
+  margin: 0 auto;
+  width: 112px;
+}
+.service__name{
+  font-family: 'Titillium Web';
+  font-size: 1.375rem;
+  font-weight: 400;
+}

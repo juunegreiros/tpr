@@ -1,0 +1,18 @@
+.header {
+  background-color: #161a1c;
+  background-image: url('../images/travel2.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.container--title {
+  background-image: url('../images/pattern.png');
+  background-position: center;
+  background-repeat: repeat;
+  box-sizing: border-box;
+  margin: 10% 80px;
+  min-width: 300px;
+  padding: 90px 8%;
+  width: 45%;
+}

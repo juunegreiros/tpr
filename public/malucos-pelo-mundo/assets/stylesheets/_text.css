@@ -1,0 +1,34 @@
+.h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.h1--main {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 42px;
+}
+
+.h3 {
+  color: #9A9A9A;
+  font-size: 1.375rem;
+  margin: 0;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-align: right;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.title--highlights{
+  font-weight: bold;
+  letter-spacing: 2px;
+}

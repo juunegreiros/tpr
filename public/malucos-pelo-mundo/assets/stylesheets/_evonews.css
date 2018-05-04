@@ -1,0 +1,43 @@
+.container-evonews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  width: 100%;
+}
+.evonews {
+  padding: 20px;
+  background-color: #dedede;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.evonews-title {
+  border-right: 1px solid darkgray;
+  padding-right: 20px;
+}
+.evonews-title h2 {
+  color: darkgray;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+.evonews-title p {
+  color: darkgray;
+  text-align: center;
+  margin: 0;
+  font-size: 12px;
+}
+
+.btn-evonews {
+  background-color: darkgray;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 0;
+  font-family: 'Titillium Web';
+  font-weight: bold;
+  font-size: 16px;
+  min-width: 150px;
+}

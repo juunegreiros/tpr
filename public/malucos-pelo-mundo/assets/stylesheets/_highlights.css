@@ -1,0 +1,34 @@
+.highlights{
+  background-color: #f1f1f1;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.highlights__container{
+  position: relative;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.highlights__image{
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.highlights__subtitle{
+  color: grey;
+  color: rgba(255,255,255,.7);
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.highlights__destination{
+  bottom: 0;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}

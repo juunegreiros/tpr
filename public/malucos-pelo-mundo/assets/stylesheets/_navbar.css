@@ -1,0 +1,28 @@
+.navbar {
+  font-family: 'Titillium Web';
+  font-size: 1.25rem;
+}
+.navbar__list{
+  display: inline;
+  margin-right: 40px;
+}
+.navbar__item {
+  display: inline-block;
+}
+.navbar__link {
+  color: #c4c3c0;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+.navbar__link:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.navbar__item:last-child .navbar__link{
+  color: #ffd8b9;
+}
+.navbar__item:last-child .navbar__link:hover{
+  color: #ffd8b9;
+}
